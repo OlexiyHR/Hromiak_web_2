@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="uk">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Basket</title>
+    <link rel="stylesheet" type="text/css" href="1.css" />
+</head>
+<body>
+
+    <div class="box">
+        <div class="Купівля">
+            <div class="input-container">
+                <input type="text" placeholder="Назва товару">
+                <button class="button" data-tooltip="Це кнопка для додавання товару">Додати</button>
+            </div>
+
+            <div class="product1">
+                <span class="product-name">Помідори</span>
+                <span class="counter">2</span>
+                <button class="button" data-tooltip="Це кнопка показує, що товар не придбано">Не куплено</button>
+            </div>
+
+            <div class="product2">
+                <span class="product-name1">Печиво</span>
+                <button class="button red-circle" data-tooltip="Це кнопка, щоб відняти 1 одиницю товару">-</button>
+                <span class="counter">2</span>
+                <button class="button green-circle" data-tooltip="Це кнопка, щоб додати 1 одиницю товару">+</button>
+                <button class="button white-rectengular" data-tooltip="Це кнопка показує, що товар придбано">Куплено</button>
+                <button class="button red-square" data-tooltip="Це кнопка для відміни покупки">x</button>
+            </div>
+
+            <div class="product2">
+                <span class="product-name1">Сир</span>
+                <button class="button pale-red" data-tooltip="Це кнопка, щоб відняти 1 одиницю товару">-</button>
+                <span class="counter">1</span>
+                <button class="button green-circle" data-tooltip="Це кнопка, щоб додати 1 одиницю товару">+</button>
+                <button class="button white-rectengular" data-tooltip="Це кнопка показує, що товар придбано">Куплено</button>
+                <button class="button red-square" data-tooltip="Це кнопка для відміни покупки">x</button>
+            </div>
+        </div>
+
+        <div class="Товар">
+            <section>
+                <h2>Залишилося</h2>
+            </section>
+
+            <section>
+                <span class="product-item">
+                    Печиво
+                    <span class="amount">2</span>
+                </span>
+                <span class="product-item">
+                    Сир
+                    <span class="amount">1</span>
+                </span>
+            </section>
+
+            <section>
+                <h2>Куплено</h2>
+            </section>
+
+            <section>
+                <span class="product-item1">
+                    Помідори
+                    <span class="amount1">2</span>
+                </span>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="badge">
+        <div class="badge-text"><strong><font size="+1">Buy List</font></strong></div>
+        <div class="badge-content">
+            Created by:
+            <br />
+            <font size="+1">Громяк Олексій</font>
+        </div>
+    </div>
+</body>
+</html>
